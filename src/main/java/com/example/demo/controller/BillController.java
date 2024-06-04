@@ -62,7 +62,7 @@ public class BillController {
     public Result GetBills(@RequestBody @Valid GetBillsRequest getBillsRequest) {
         getBillsRequest.setPageResult((getBillsRequest.getCurrentPage() - 1) * getBillsRequest.getPagesize());
         List<BillInfo> bills = billService.getBills(getBillsRequest);
-        return Result.ok(bills);
+        return Result.ok(null);
     }
 
     @RequestMapping(value = "/conditionSearch", method = RequestMethod.POST)
