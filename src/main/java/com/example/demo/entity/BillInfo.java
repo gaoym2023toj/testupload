@@ -37,4 +37,6 @@ public class BillInfo {
 	private String remark;
 
 	private int totalBill;
+
+	private int aaBill;
 }
