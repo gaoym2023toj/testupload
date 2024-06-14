@@ -39,4 +39,6 @@ public class BillInfo {
 	private int totalBill;
 
 	private int aaBill;
+
+	private int ccBill;
 }
