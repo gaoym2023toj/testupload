@@ -44,9 +44,5 @@ public class BillInfo {
 
 	private int ddBill;
 
-<<<<<<< HEAD
 	private int Bill22;
-=======
-	private int Bill11;
->>>>>>> gg06141100
 }
