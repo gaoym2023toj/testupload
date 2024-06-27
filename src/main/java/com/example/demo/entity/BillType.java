@@ -1,8 +1,9 @@
 package com.example.demo.entity;
 
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Table;
-import java.util.Date;
 
 import lombok.Data;
 
@@ -27,5 +28,7 @@ public class BillType {
 
 	// @Column(name = "updateuserid")
 	private int updateuserid;
+	
+	private int bill1;
 
 }
