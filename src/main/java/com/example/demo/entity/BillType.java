@@ -30,5 +30,7 @@ public class BillType {
 	private int updateuserid;
 	
 	private int bill1;
+	
+	private int bill111;
 
 }
