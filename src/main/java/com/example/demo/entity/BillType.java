@@ -32,5 +32,7 @@ public class BillType {
 	private int bill1;
 	
 	private int bill111;
+	
+	private int bill11111;
 
 }
